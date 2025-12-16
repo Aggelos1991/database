@@ -384,7 +384,7 @@ const App: React.FC = () => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               onKeyDown={handleSearch}
-              placeholder="Try: 'Search Document"
+              placeholder="Try: Search Document"
               className="w-full bg-[#0a0a0a] border border-white/10 rounded-full py-3 pl-12 pr-4 text-sm text-white focus:outline-none focus:border-cyan-500/50 focus:ring-1 focus:ring-cyan-500/50 transition-all shadow-xl"
             />
             <span className="material-icons absolute left-4 top-3 text-lg text-slate-500 transition-colors">
